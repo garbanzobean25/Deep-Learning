@@ -19,7 +19,7 @@ Design and implement a convolutional neural network for the CIFAR10 image classi
 aiming to achieve a high test accuracy. Evaluate the classification accuracy by reporting 
 top-1 and top-5 test error rates.
 
-
+---------------------------------------------
 **Neural Networks**
 
 **Part 1:**
