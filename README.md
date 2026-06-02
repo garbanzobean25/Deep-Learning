@@ -18,3 +18,18 @@ In addition, show the results by adding dropout.
 Design and implement a convolutional neural network for the CIFAR10 image classification task 
 aiming to achieve a high test accuracy. Evaluate the classification accuracy by reporting 
 top-1 and top-5 test error rates.
+
+
+**Neural Networks**
+
+**Part 1:**
+
+The task is to implement, train, and evaluate a character-level language model according to a GRU RNN. The input dataset is the text of the book Alice's Adventures in Wonderland by Lewis Carroll, which consists of 3,761 lines of text and 164,047 characters.
+
+**Part 2:**
+
+Adapt the above pipeline to work on word-level tokens, as opposed to characters. Generate sentences starting from 'Alice' as the initial token. Use pre-trained static word embeddings, and re-train the network.
+
+**Part 3:**
+
+Replace the RNN with a decoder-only (causal) transformer architecture. Use a(not excessively large) pre-trained transformer for the language modelling instead of your model trained from scratch. 
